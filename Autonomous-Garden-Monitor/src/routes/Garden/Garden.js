@@ -239,9 +239,6 @@ function Garden() {
               src={imageUrls[index] || `http://localhost:9000/images/${imageSrc}`} // Use imageUrls if available, otherwise use the original imageSrc
               alt={imageAlt}
             />
-
-
-        
           </Link>
         ))}
 
